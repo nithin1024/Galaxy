@@ -556,7 +556,7 @@
 <circle cx="343.6" cy="98.1" r="1.5" fill="#1b2234" opacity="0.5"><title>2026-08-08: 0 contributions</title></circle>
 <circle cx="535.1" cy="627.6" r="1.5" fill="#1b2234" opacity="0.5"><title>2026-08-09: 0 contributions</title></circle>
 <path d="M 352.7038554997216 80.97881743739151 L 354.2038554997216 84.47881743739151 L 357.7038554997216 85.97881743739151 L 354.2038554997216 87.47881743739151 L 352.7038554997216 90.97881743739151 L 351.2038554997216 87.47881743739151 L 347.7038554997216 85.97881743739151 L 351.2038554997216 84.47881743739151 Z" fill="#00f0ff" filter="url(#glow-soft)"><title>2026-08-10: 6 contributions</title></path>
-<circle cx="515.9" cy="646.1" r="3.6" fill="#7000ff" filter="url(#glow-soft)"><title>2026-08-11: 3 contributions</title></circle>
+<circle cx="515.9" cy="646.1" r="3.6" fill="#7000ff" filter="url(#glow-soft)"><title>2026-08-11: 4 contributions</title></circle>
 </g>
 <!-- LAYER 5: Streak Constellations -->
 <g id="constellations">
@@ -594,7 +594,7 @@
         <g transform="translate(51.0, 670)">
             <rect width="175" height="60" rx="10" fill="#0d1424" stroke="#00f0ff" stroke-opacity="0.35" stroke-width="1" />
             <text x="14" y="22" fill="#7d8b9e" font-size="10" class="font-title">CONTRIBUTIONS</text>
-            <text x="14" y="46" fill="#ffffff" font-size="17" class="font-mono">58</text>
+            <text x="14" y="46" fill="#ffffff" font-size="17" class="font-mono">59</text>
         </g>
         
         <g transform="translate(242.0, 670)">
@@ -619,12 +619,12 @@
         <!-- Level & XP Bar Container -->
         <g transform="translate(51.0, 745)">
             <text x="0" y="-8" fill="#ffffff" font-size="13" class="font-title">LEVEL 3 <tspan fill="#7d8b9e">• ASTEROID PIONEER</tspan></text>
-            <text x="748" y="-8" fill="#00f0ff" font-size="12" text-anchor="end" class="font-mono">740 XP (68.0% NEXT LEVEL)</text>
+            <text x="748" y="-8" fill="#00f0ff" font-size="12" text-anchor="end" class="font-mono">750 XP (70.0% NEXT LEVEL)</text>
             
             <!-- Bar Track -->
             <rect width="748" height="12" rx="6" fill="#0d1428" stroke="#1f2c47" stroke-width="1" />
             <!-- Bar Fill -->
-            <rect width="508.6" height="12" rx="6" fill="url(#bar-grad)" />
+            <rect width="523.6" height="12" rx="6" fill="url(#bar-grad)" />
         </g>
 
         <!-- LAYER 8: Achievements Badge Row -->
