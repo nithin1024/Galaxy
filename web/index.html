@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Contribution Galaxy - Web Preview</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="space-bg"></div>
+
+    <header class="app-header">
+        <div class="logo-container">
+            <span class="galaxy-icon">🌌</span>
+            <h1>GitHub Contribution Galaxy</h1>
+        </div>
+        <div class="user-badge" id="userBadge">
+            <span class="dot"></span>
+            <span id="usernameText">Loading...</span>
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+        <!-- Left Section: Interactive SVG Canvas -->
+        <section class="visualizer-card glass-panel">
+            <div class="card-header">
+                <h2>Live SVG Galaxy</h2>
+                <button class="btn-primary" id="btnRefresh">🔄 Reload Preview</button>
+            </div>
+            <div class="svg-wrapper" id="svgContainer">
+                <img src="../output/galaxy.svg" alt="GitHub Contribution Galaxy" id="galaxySvgImg">
+            </div>
+        </section>
+
+        <!-- Right Section: Live Stats & Achievements -->
+        <section class="stats-sidebar">
+            <!-- Level & XP Card -->
+            <div class="level-card glass-panel">
+                <div class="level-header">
+                    <span class="level-badge" id="levelNumber">LVL 1</span>
+                    <div class="level-titles">
+                        <h3 id="levelTitle">Starlight Novice</h3>
+                        <p id="xpDetail">0 XP</p>
+                    </div>
+                </div>
+                <div class="xp-bar-container">
+                    <div class="xp-bar-fill" id="xpBarFill" style="width: 0%;"></div>
+                </div>
+                <div class="xp-footer">
+                    <span id="xpProgressText">0% to next level</span>
+                </div>
+            </div>
+
+            <!-- Metric Grid -->
+            <div class="metrics-grid">
+                <div class="metric-card glass-panel">
+                    <span class="m-label">Contributions</span>
+                    <span class="m-val cyan" id="mTotalContributions">-</span>
+                </div>
+                <div class="metric-card glass-panel">
+                    <span class="m-label">Active Days</span>
+                    <span class="m-val purple" id="mActiveDays">-</span>
+                </div>
+                <div class="metric-card glass-panel">
+                    <span class="m-label">Current Streak</span>
+                    <span class="m-val violet" id="mCurrentStreak">-</span>
+                </div>
+                <div class="metric-card glass-panel">
+                    <span class="m-label">Longest Streak</span>
+                    <span class="m-val pink" id="mLongestStreak">-</span>
+                </div>
+            </div>
+
+            <!-- Achievements Section -->
+            <div class="achievements-card glass-panel">
+                <div class="card-header">
+                    <h2>Achievements Engine</h2>
+                    <span class="badge-count" id="unlockedCount">0 / 0</span>
+                </div>
+                <div class="achievements-grid" id="achievementsGrid">
+                    <!-- Dynamic Achievement Cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>GitHub Contribution Galaxy • Built with Python & SVG • <a href="https://github.com" target="_blank" class="link">GitHub Project</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
