@@ -1,3 +1,6 @@
+## 🌌 My Contribution Galaxy
+
+![GitHub Contribution Galaxy](https://raw.githubusercontent.com/nithin1024/Galaxy/main/output/galaxy.svg)
 # 🌌 GitHub Contribution Galaxy
 
 [![GitHub Contribution Galaxy Workflow](https://github.com/nithin1024/Youtube_Ad_Remover/actions/workflows/galaxy.yml/badge.svg)](https://github.com/nithin1024/Youtube_Ad_Remover/actions/workflows/galaxy.yml)
