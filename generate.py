@@ -30,6 +30,19 @@ def setup_logging():
 
 def main():
     setup_logging()
+    
+    # Load .env file manually if it exists
+    if os.path.exists(".env"):
+        try:
+            with open(".env", "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        os.environ[k.strip()] = v.strip()
+        except Exception as e:
+            logging.warning(f"Failed to read .env file: {e}")
+
     parser = argparse.ArgumentParser(description="Generate an animated SVG GitHub Contribution Galaxy.")
     parser.add_argument("--mock", action="store_true", help="Force mock data generation for local testing.")
     parser.add_argument("--username", type=str, help="GitHub username override.")

@@ -202,6 +202,18 @@ To allow the generator to fetch your private/public GitHub contribution history:
 
 ---
 
+## ⚙️ Automated Daily Maintenance
+
+- **Daily Schedule**: GitHub Actions runs automated maintenance once per day via a cron trigger.
+- **Regeneration**: The visual Galaxy (`galaxy.svg`) and stats (`stats.json`) are seamlessly regenerated based on the latest GitHub API data.
+- **Automated Logging**: The system records a genuine daily automated maintenance activity in the `activity/daily-maintenance.log` file, ensuring there is a valid repository update even on days when the visuals do not change.
+- **Auto-Commit**: All generated files and logs are committed and pushed automatically.
+- **No Manual Interaction**: Zero manual interaction is required after the initial workflow setup.
+- **Secure Authentication**: The workflow uses the repository's built-in secure `${{ secrets.GITHUB_TOKEN }}` without requiring separate Personal Access Tokens.
+- **Contribution Graph Attribution**: The commit identity matches the repository owner, but note that the actual appearance of these automated commits on the personal contribution graph still strictly depends on GitHub's internal contribution rules and caching.
+
+---
+
 ## 🤖 GitHub Actions Setup (Automated Profile README Update)
 
 To set up automated updates on your repository:
