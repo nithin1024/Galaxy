@@ -1,27 +1,27 @@
 {
   "username": "nithin1024",
   "is_mock": false,
-  "total_contributions": 206,
-  "active_days": 105,
-  "total_days": 371,
-  "avg_per_active_day": 2.0,
+  "total_contributions": 228,
+  "active_days": 106,
+  "total_days": 365,
+  "avg_per_active_day": 2.2,
   "most_active_day": {
-    "date": "2026-11-11",
-    "count": 17
+    "date": "2026-11-14",
+    "count": 22
   },
   "most_active_month": {
     "month": "2026-08",
     "count": 53
   },
   "current_streak": 0,
-  "longest_streak": 61,
+  "longest_streak": 62,
   "level": {
     "level": 7,
     "title": "Constellation Architect",
-    "total_xp": 3630,
+    "total_xp": 3870,
     "current_level_xp": 3600,
     "next_level_xp": 4900,
-    "progress_percent": 2.3
+    "progress_percent": 20.8
   },
   "achievements": [
     {
@@ -58,7 +58,7 @@
       "icon": "\u2604\ufe0f",
       "category": "streak",
       "unlocked": false,
-      "progress_text": "61/100 days"
+      "progress_text": "62/100 days"
     },
     {
       "id": "contributions_100",
@@ -76,7 +76,7 @@
       "icon": "\ud83c\udf1f",
       "category": "total",
       "unlocked": false,
-      "progress_text": "206/500"
+      "progress_text": "228/500"
     },
     {
       "id": "contributions_1000",
@@ -85,7 +85,7 @@
       "icon": "\u2728",
       "category": "total",
       "unlocked": false,
-      "progress_text": "206/1000"
+      "progress_text": "228/1000"
     },
     {
       "id": "active_days_100",
@@ -112,7 +112,7 @@
       "icon": "\ud83c\udfaf",
       "category": "consistency",
       "unlocked": false,
-      "progress_text": "28%/50%"
+      "progress_text": "29%/50%"
     },
     {
       "id": "galaxy_explorer",
@@ -125,12 +125,12 @@
     }
   ],
   "intensity_distribution": {
-    "0": 266,
+    "0": 259,
     "1": 89,
     "2": 7,
     "3": 7,
     "4": 2,
-    "5": 0
+    "5": 1
   },
   "monthly_totals": {
     "2025-11": 0,
@@ -145,6 +145,6 @@
     "2026-08": 53,
     "2026-09": 41,
     "2026-10": 40,
-    "2026-11": 29
+    "2026-11": 51
   }
 }
