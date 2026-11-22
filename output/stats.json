@@ -1,9 +1,9 @@
 {
   "username": "nithin1024",
   "is_mock": false,
-  "total_contributions": 255,
-  "active_days": 112,
-  "total_days": 371,
+  "total_contributions": 263,
+  "active_days": 114,
+  "total_days": 365,
   "avg_per_active_day": 2.3,
   "most_active_day": {
     "date": "2026-11-14",
@@ -11,17 +11,17 @@
   },
   "most_active_month": {
     "month": "2026-11",
-    "count": 78
+    "count": 86
   },
-  "current_streak": 0,
-  "longest_streak": 68,
+  "current_streak": 70,
+  "longest_streak": 70,
   "level": {
     "level": 7,
     "title": "Constellation Architect",
-    "total_xp": 4260,
+    "total_xp": 4380,
     "current_level_xp": 3600,
     "next_level_xp": 4900,
-    "progress_percent": 50.8
+    "progress_percent": 60.0
   },
   "achievements": [
     {
@@ -58,7 +58,7 @@
       "icon": "\u2604\ufe0f",
       "category": "streak",
       "unlocked": false,
-      "progress_text": "68/100 days"
+      "progress_text": "70/100 days"
     },
     {
       "id": "contributions_100",
@@ -76,7 +76,7 @@
       "icon": "\ud83c\udf1f",
       "category": "total",
       "unlocked": false,
-      "progress_text": "255/500"
+      "progress_text": "263/500"
     },
     {
       "id": "contributions_1000",
@@ -85,7 +85,7 @@
       "icon": "\u2728",
       "category": "total",
       "unlocked": false,
-      "progress_text": "255/1000"
+      "progress_text": "263/1000"
     },
     {
       "id": "active_days_100",
@@ -112,7 +112,7 @@
       "icon": "\ud83c\udfaf",
       "category": "consistency",
       "unlocked": false,
-      "progress_text": "30%/50%"
+      "progress_text": "31%/50%"
     },
     {
       "id": "galaxy_explorer",
@@ -125,9 +125,9 @@
     }
   ],
   "intensity_distribution": {
-    "0": 259,
+    "0": 251,
     "1": 92,
-    "2": 8,
+    "2": 10,
     "3": 8,
     "4": 3,
     "5": 1
@@ -145,6 +145,6 @@
     "2026-08": 53,
     "2026-09": 41,
     "2026-10": 40,
-    "2026-11": 78
+    "2026-11": 86
   }
 }
